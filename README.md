@@ -1,7 +1,12 @@
 InstaSynchP-Name-Completion
 ===========================
 
-Autocomplete usernames by hitting tab
+Autocomplete usernames by hitting tab, double tab to list users when there are multiple matches
+
+Example
+---------------
+https://cdn.rawgit.com/Zod-/InstaSynchP-Name-Completion/4c96d9d897e9608f80936a619647a2459e494e41/name-completion.webm
+
 
 License
 -----------
