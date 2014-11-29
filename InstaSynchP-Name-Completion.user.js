@@ -3,7 +3,7 @@
 // @namespace   InstaSynchP
 // @description Autocomplete usernames by hitting tab
 
-// @version     1
+// @version     1.0.1
 // @author      Zod-
 // @source      https://github.com/Zod-/InstaSynchP-Name-Completion
 // @license     MIT
@@ -22,7 +22,6 @@
 function NameCompletion(version) {
     "use strict";
     this.version = version;
-    this.enabled = true;
     this.name = 'InstaSynchP Name Completion';
     this.doubleTabTimeoutId = undefined;
 }
@@ -112,4 +111,4 @@ NameCompletion.prototype.executeOnce = function () {
 };
 
 window.plugins = window.plugins || {};
-window.plugins.nameCompletion = new NameCompletion('1');
+window.plugins.nameCompletion = new NameCompletion('1.0.1');
