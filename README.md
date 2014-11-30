@@ -7,7 +7,6 @@ Example
 ---------------
 https://cdn.rawgit.com/Zod-/InstaSynchP-Name-Completion/4c96d9d897e9608f80936a619647a2459e494e41/name-completion.webm
 
-
 License
 -----------
 The MIT License (MIT)<br>
