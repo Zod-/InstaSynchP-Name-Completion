@@ -3,7 +3,7 @@
 // @namespace   InstaSynchP
 // @description Autocomplete usernames by hitting tab
 
-// @version     1.0.1
+// @version     1.0.2
 // @author      Zod-
 // @source      https://github.com/Zod-/InstaSynchP-Name-Completion
 // @license     MIT
@@ -59,7 +59,7 @@ NameCompletion.prototype.executeOnce = function () {
 
     function getUsers(partToComplete, comp) {
         //get all users that start with or contain partToComplete
-        return $.map(window.users, function (user) {
+        return $.map(window.room.userlist.users, function (user) {
             return (user.username.toLowerCase()[comp](partToComplete)) ? user.username : undefined;
         });
     }
@@ -111,4 +111,4 @@ NameCompletion.prototype.executeOnce = function () {
 };
 
 window.plugins = window.plugins || {};
-window.plugins.nameCompletion = new NameCompletion('1.0.1');
+window.plugins.nameCompletion = new NameCompletion('1.0.2');
