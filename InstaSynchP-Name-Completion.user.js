@@ -13,7 +13,7 @@
 // @grant       none
 // @run-at      document-start
 
-// @require     https://greasyfork.org/scripts/5647-instasynchp-library/code/InstaSynchP%20Library.js
+// @require     https://greasyfork.org/scripts/5647-instasynchp-library/code/InstaSynchP%20Library.js?version=37716
 // @require     https://greasyfork.org/scripts/6707-jquery-caret/code/jquerycaret.js?version=26377
 // ==/UserScript==
 
